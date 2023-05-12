@@ -1,0 +1,762 @@
+.container {
+    display: flex;
+    font-family: var(--font-family, CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif);
+}
+
+.menu {
+    display: inline;
+    width: 15.2rem;
+    height: 35.9rem;
+    background-color: rgb(0, 0, 0);
+    padding-top: 15px;
+}
+
+.logo_spotify {
+    margin-bottom: 17px;
+    width: 184px;
+    height: 42px;
+    padding: 0px 27px;
+    margin-top: 7px;
+}
+
+.logo_home {
+    position: relative;
+    top: 13px;
+    left: 13px;
+    width: 198px;
+    height: 25px;
+    padding: 0px 12px;
+}
+
+h1 {
+    letter-spacing: 0px;
+    position: relative;
+    left: 10px;
+    font-size: 30px;
+}
+
+h2 {
+    position: relative;
+    bottom: 7.5px;
+    left: 10px;
+    font-size: 13.7px;
+    display: inline;
+    color: #968888;
+    margin-top: 10px;
+    letter-spacing: 0.2px;
+}
+
+
+h4 {
+    height: 77px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+}
+
+h6 {
+    letter-spacing: 0px;
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+    display: flex;
+    height: 40px;
+}
+
+h7 {
+    letter-spacing: 0px;
+    position: relative;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.Letra_nome_mix_e_albun {
+    letter-spacing: 0px;
+    position: relative;
+    font-size: 17px;
+    height: 40px;
+    text-decoration: none;
+    width: 170px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo_lupa {
+    position: relative;
+    top: 13px;
+    left: 13px;
+    width: 198px;
+    height: 25px;
+    padding: 0px 12px;
+    margin-top: 15px;
+}
+
+.logo_lupa:hover  h2  svg {
+    color:white;
+}
+
+.logo_biblioteca {
+    position: relative;
+    top: 13px;
+    left: 13px;
+    width: 198px;
+    height: 25px;
+    padding: 0px 12px;
+    margin-top: 16px;
+}
+
+.logo_playlist {
+    position: relative;
+    top: 18px;
+    left: 13px;
+    width: 198px;
+    height: 25px;
+    padding: 0px 12px;
+    margin-top: 30px;
+}
+
+.logo_coração {
+    position: relative;
+    top: 15px;
+    left: 13px;
+    width: 198px;
+    height: 25px;
+    padding: 0px 12px;
+    margin-top: 16px;
+}
+
+.logo_podcast {
+    position: relative;
+    top: 17px;
+    left: 13px;
+    width: 198px;
+    height: 27px;
+    padding: 0px 12px;
+    margin-top: 16px;
+}
+
+.borda {
+    border-top: rgb(75, 75, 80, 80) solid 1px;
+    padding: 2px 1px;
+    margin-left: 23px;
+    width: 194px;
+    margin-top: 29px;
+}
+
+#playlist {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    opacity: 0%;
+}
+
+::-webkit-scrollbar-thumb {
+    background: 5px grey;
+}
+
+.playlist {
+    font-size: 13.1px;
+}
+
+.principal {
+    display: inline;
+    width: 70.2rem;
+    height: 35.9rem;
+    background: linear-gradient(rgb(255 25 25 / 40%), rgb(34 18 18 / 57%) , rgba(0, 0, 0,100%));
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 70.2rem;
+    max-height: 35.9rem;
+}
+
+.principal_topo{
+    display:flex;
+    justify-content: start;
+    gap: 8px;
+}
+
+.botoes {
+    display: flex;
+    height: 65px;
+    width: 130px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#botao_seta_esquerda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border: 1px solid rgb(20, 19, 19);
+    background-color: rgb(20, 19, 19);
+    cursor: pointer;
+    padding-right: 4px;
+}
+
+#botao_seta_direita {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border: 1px solid rgb(26, 25, 25);
+    background-color: rgb(27, 27, 27);
+    cursor: pointer;
+    padding-left: 2px;
+}
+
+.principal_baixo {
+    display: inline;
+}
+
+.bom_dia {
+    display: flex;
+    height: 60px;
+    width: 220px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.playlist_principal {
+    display: flex;
+    padding-left: 32px;
+    column-gap: 25px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.playlist_juntas {
+    display: flex;
+    position: relative;
+    border-radius: 6px;
+    height: 80px;
+    width: 336px;
+    border: 0px solid rgb(82, 82, 82);
+    background-color: rgba(80, 80, 80, 0.54);
+    cursor: pointer;
+    top: 10px;
+}
+
+.botao_posicao {
+    padding: 10px;
+}
+
+.botao_playlist {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 78px;
+    width: 340px;
+    opacity: 0%;
+    justify-content: right;
+}
+
+.botao_playlist:hover{
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.confi_botao_playlist_principal {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 1px solid rgba(69, 253, 84, 0.651);
+    background-color: rgba(69, 253, 84, 0.651) ;    
+    align-items: center;
+    justify-content: center;
+    opacity: 100%;
+}
+
+.playlist_name{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    color: #fff;
+    width: 335px;
+    height: 80px;
+    justify-content: right;
+}
+
+.mudanca_cor {
+    height: 80px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-shadow: #141414 20px;
+    border-radius: 5px ;
+}
+
+.mudanca_cor:hover {
+    background-color:rgb(131, 127, 127,40%) ;
+}
+
+.sugestoes_de_playlist{
+    display: flex;
+    height: 90px;
+    width: 890px;
+    align-items: flex-end;
+    padding: 0px 28px;
+}
+
+.playlists_mix{
+    display: flex;
+    padding-left: 32px;
+    column-gap: 25px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.imagem_mix {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.mix_e_albun {
+    display: flex;
+    position: relative;
+    border-radius: 7px;
+    height: 268px;
+    width: 190px;
+    background-color: rgb(30 30 30 / 64%);
+    cursor: pointer;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.descricao_playlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    width: 150px;
+}
+
+.botao_posicao_mix_e_albun {
+    height: 35px;
+    width: 65px;
+}
+
+.botao_play_mix_e_albun{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 280px;
+    width: 190px;
+    opacity: 0%;
+    justify-content: right;
+}
+
+.botao_play_mix_e_albun:hover {
+    opacity: 100%;
+    transition: 0.4s;
+}
+
+.confi_botao_playlist_mix_e_albun {
+    display: flex;
+    position: absolute;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    border: 1px solid #1fdf64;
+    background-color: #1fdf64;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.mudanca_cor_mix {
+    position: absolute;
+    height: 268px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.mudanca_cor_mix:hover{
+    transition: 0.3s;
+    background-color: rgba(80, 80, 80, 20%) ;
+}
+
+.albuns {
+    display: flex;
+    padding-left: 32px;
+    column-gap: 25px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+}
+
+.foot {
+    display: flex;
+    position: fixed;
+    color: white;
+    height: 6rem;
+    width: 85.2rem;
+    background-color: rgb(24, 24, 24);
+}
+
+.descricao_musica_tocando {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95px;
+    width: 185px;
+}
+
+.imagem_musica {
+    height: 60px;
+}
+
+#musica_tocando {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 32.5px;
+    left: 3px;
+    font-size: 13.1px;
+    display: inline;
+    color: rgb(207, 207, 207);
+    margin-top: 10px;
+}
+
+#nome_do_artista {
+    font-family: sans-serif;
+    position: relative;
+    bottom: 13.5px;
+    right: 59px;
+    font-size: 11.1px;
+    display: inline;
+    color: #a39595;
+    margin-top: 10px;
+}
+
+.icone_de_curtida {
+    position: relative;
+    bottom: 40.5px;
+    left: 142px;
+    color: grey;
+}
+
+.icone_miniplayer {
+    position: relative;
+    bottom: 60.5px;
+    left: 173px;
+    color: rgb(131, 127, 127);
+    opacity: 60%;
+}
+
+.botao_play {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 33px;
+    width: 33px;
+    border: 1px solid white;
+    left: 479px;
+    top: 18px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+.botao_esquerdo {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 404px;
+    top: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_direito{
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 476px;
+    top: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_repetir{
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 493px;
+    top: 25px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_ordem_aleatoria {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 295px;
+    top: 24px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+#minutos_musica_inicio{
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 126px;
+    font-size: 13px;
+    font-family: serif;
+    color: rgb(163, 149, 149);
+    box-sizing: border-box;
+}
+
+#borda_musica1 {
+    border: 2.8px solid white;
+    position: relative;
+    padding: 0px;
+    width: 98px;
+    left: 155px;
+    top: 47px;
+    border-radius: 29px;
+}
+
+#borda_musica2 {
+    border: rgb(75, 75, 80, 40) solid 2.8px;
+    border-radius: 40px;
+    position: relative;
+    padding: 0px;
+    width: 366px;
+    left: 227px;
+    top: 51px;
+}
+
+#minutos_musica_total {
+    display: flex;
+    position: relative;
+    top: 36px;
+    left: 602px;
+    font-size: 13px;
+    font-family: serif;
+    color: rgb(163, 149, 149);
+    box-sizing: border-box;
+}
+
+.botao_microfone {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 424px;
+    top: 38px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_fila {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 433px;
+    top: 38px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_conectar_dispositivo {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 443px;
+    top: 38px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+.botao_volume {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 453px;
+    top: 38px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    opacity: 60%;
+}
+
+#volume_musica {
+    border: 2.8px solid white;
+    position: relative;
+    padding: 0px;
+    width: 90px;
+    left: 485px;
+    top: 26px;
+    border-radius: 29px;
+}
+
+.botao_tela_cheia {
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    border-color: transparent;
+    background-color: transparent;
+    left: 493px;
+    top: 35px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    color: grey;
+}
+
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.playlist:hover{
+    cursor: default;
+    color: #ffffff;
+}
+
+.titulo_inicio , #botao_repetir:hover {
+    color: #fff;
+}
+
+.titulo:hover {
+    cursor: pointer;
+    color: #ffffff;
+
+}
+
+:root {
+    --background: #141414;
+    --color: grey;
+    --text-body: #969cb3;
+    --white: #fff;
+    /*variáveis */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+html {
+    @media(max-width: 1080px)
+    /* se a tela tiver 1080 px ou menos a fonte será esta */
+    font-size: 93.75%;
+
+    @media(max-width: 720px)
+    /* se a tela tiver 720px ou menos terá esta fonte */
+    font-size: 87.5%;
+
+}
+
+body {
+    background-color: var(--background);
+    color: var(--color);
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 600;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+#mudar_cor_botoes:hover{
+  opacity: 100%; 
+}
